@@ -1,0 +1,136 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --kimchi-red: #E52A2A;
+  --kimchi-red-dark: #C41E1E;
+  --kimchi-red-light: #FF4040;
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), system-ui, sans-serif;
+}
+
+/* Kimchi Brand Colors */
+.bg-kimchi-red {
+  background-color: var(--kimchi-red);
+}
+
+.text-kimchi-red {
+  color: var(--kimchi-red);
+}
+
+.border-kimchi-red {
+  border-color: var(--kimchi-red);
+}
+
+/* Button Styles */
+.btn-primary {
+  @apply inline-flex items-center justify-center px-6 py-3 font-semibold text-white transition-all duration-200;
+  background-color: var(--kimchi-red);
+}
+
+.btn-primary:hover {
+  background-color: var(--kimchi-red-dark);
+  transform: translateY(-1px);
+}
+
+.btn-secondary {
+  @apply inline-flex items-center justify-center px-6 py-3 font-semibold transition-all duration-200;
+  color: var(--kimchi-red);
+  border: 2px solid var(--kimchi-red);
+  background: transparent;
+}
+
+.btn-secondary:hover {
+  background-color: var(--kimchi-red);
+  color: white;
+}
+
+/* Product Card Hover */
+.product-card {
+  @apply transition-all duration-300;
+}
+
+.product-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px rgba(229, 42, 42, 0.15);
+}
+
+/* Hero Animation */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.float-animation {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Fermentation Bubbles */
+@keyframes bubble {
+  0% {
+    transform: translateY(100%) scale(0);
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: translateY(-100vh) scale(1);
+    opacity: 0;
+  }
+}
+
+.bubble {
+  animation: bubble 4s ease-in infinite;
+}
+
+/* "It's Alive!" Pulse */
+@keyframes pulse-alive {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.8;
+    transform: scale(1.02);
+  }
+}
+
+.pulse-alive {
+  animation: pulse-alive 2s ease-in-out infinite;
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Focus styles */
+*:focus-visible {
+  outline: 2px solid var(--kimchi-red);
+  outline-offset: 2px;
+}
+
+/* Selection color */
+::selection {
+  background-color: var(--kimchi-red);
+  color: white;
+}
