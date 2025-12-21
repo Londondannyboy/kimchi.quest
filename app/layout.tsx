@@ -3,7 +3,6 @@ import { Outfit, Source_Serif_4 } from 'next/font/google'
 import './globals.css'
 import NavBar from '@/components/NavBar'
 import Footer from '@/components/Footer'
-import { CartProvider } from '@/components/CartContext'
 
 const outfit = Outfit({
   subsets: ['latin'],
@@ -18,14 +17,14 @@ const sourceSerif = Source_Serif_4({
 })
 
 export const metadata: Metadata = {
-  title: "Ollie's Kimchi | Handcrafted Fermented Foods",
-  description: "Handcrafted, naturally fermented kimchi made in London. Bursting with probiotics, flavour, and life. It's Alive!",
-  keywords: ['kimchi', 'fermented foods', 'probiotics', 'London', 'artisan', 'handcrafted'],
+  title: "Kimchi Quest | Your Complete Guide to Korean Fermented Foods",
+  description: "Everything you need to know about kimchi - recipes, health benefits, where to buy, and the science of fermentation. Your UK guide to Korean fermented foods.",
+  keywords: ['kimchi', 'kimchi recipes', 'fermented foods', 'korean food', 'probiotics', 'kimchi uk', 'how to make kimchi'],
   openGraph: {
-    title: "Ollie's Kimchi",
-    description: "Handcrafted, naturally fermented kimchi made in London. It's Alive!",
-    url: 'https://ollieskimchi.co.uk',
-    siteName: "Ollie's Kimchi",
+    title: "Kimchi Quest",
+    description: "Your complete guide to kimchi - recipes, health benefits, where to buy in the UK, and more.",
+    url: 'https://kimchi.quest',
+    siteName: "Kimchi Quest",
     locale: 'en_GB',
     type: 'website',
   },
@@ -39,13 +38,11 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${outfit.variable} ${sourceSerif.variable}`}>
       <body className="min-h-screen flex flex-col">
-        <CartProvider>
-          <NavBar />
-          <main className="flex-grow">
-            {children}
-          </main>
-          <Footer />
-        </CartProvider>
+        <NavBar />
+        <main className="flex-grow">
+          {children}
+        </main>
+        <Footer />
       </body>
     </html>
   )
