@@ -16,7 +16,7 @@ export async function generateMetadata({ params }: Props) {
   }
 
   return {
-    title: `${article.title} | Ollie's Kimchi Blog`,
+    title: `${article.title} | Kimchi Quest Blog`,
     description: article.excerpt,
   }
 }
@@ -131,7 +131,7 @@ export default async function ArticlePage({ params }: Props) {
           <p className="text-gray-700 font-medium mb-4">Share this article:</p>
           <div className="flex gap-4">
             <a
-              href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(article.title)}&url=${encodeURIComponent(`https://ollieskimchi.co.uk/blog/${article.slug}`)}`}
+              href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(article.title)}&url=${encodeURIComponent(`https://kimchi.quest/blog/${article.slug}`)}`}
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-500 hover:text-kimchi-red transition-colors"
@@ -142,7 +142,7 @@ export default async function ArticlePage({ params }: Props) {
               </svg>
             </a>
             <a
-              href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(`https://ollieskimchi.co.uk/blog/${article.slug}`)}`}
+              href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(`https://kimchi.quest/blog/${article.slug}`)}`}
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-500 hover:text-kimchi-red transition-colors"
@@ -207,17 +207,25 @@ export default async function ArticlePage({ params }: Props) {
       <section className="bg-kimchi-red py-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-white mb-4">
-            Ready to Try the Best Kimchi in London?
+            Ready to Make Your Own Kimchi?
           </h2>
           <p className="text-white/90 mb-8">
-            Handcrafted, naturally fermented, and bursting with probiotics.
+            Learn how to make authentic kimchi at home with our step-by-step recipes.
           </p>
-          <Link
-            href="/shop"
-            className="inline-flex items-center justify-center px-8 py-4 bg-white text-kimchi-red font-semibold rounded-full text-lg hover:bg-gray-100 transition-colors"
-          >
-            Shop Now
-          </Link>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Link
+              href="/recipes/traditional-kimchi-recipe"
+              className="inline-flex items-center justify-center px-8 py-4 bg-white text-kimchi-red font-semibold rounded-full text-lg hover:bg-gray-100 transition-colors"
+            >
+              View Recipes
+            </Link>
+            <Link
+              href="/buy/best-kimchi-uk"
+              className="inline-flex items-center justify-center px-8 py-4 bg-transparent border-2 border-white text-white font-semibold rounded-full text-lg hover:bg-white/10 transition-colors"
+            >
+              Where to Buy UK
+            </Link>
+          </div>
         </div>
       </section>
     </div>
