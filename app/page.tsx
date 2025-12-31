@@ -16,6 +16,7 @@ export default async function HomePage() {
       <section className="relative bg-gradient-to-br from-red-50 to-orange-50 overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-32">
           <div className="text-center">
+            <p className="text-sm text-kimchi-red font-bold mb-4">🥬 KIMCHI QUEST - Your UK Kimchi Resource</p>
             <h1 className="text-5xl lg:text-7xl font-bold text-gray-900 leading-tight">
               Your Complete Guide to
               <span className="block text-kimchi-red">Kimchi</span>
