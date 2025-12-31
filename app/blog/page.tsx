@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 export const metadata = {
-  title: "Blog | Ollie's Kimchi",
+  title: "Blog | Kimchi Quest",
   description: "Discover recipes, health tips, and everything you need to know about kimchi and fermented foods.",
 }
 

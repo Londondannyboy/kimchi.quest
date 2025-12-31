@@ -39,7 +39,7 @@ async function main() {
       cluster VARCHAR(50) NOT NULL,
       phase INTEGER NOT NULL DEFAULT 1,
       status VARCHAR(20) NOT NULL DEFAULT 'draft',
-      author VARCHAR(100) DEFAULT 'Ollie''s Kimchi',
+      author VARCHAR(100) DEFAULT 'Kimchi Quest',
       internal_links TEXT[],
       created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
       updated_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,

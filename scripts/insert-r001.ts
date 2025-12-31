@@ -337,14 +337,14 @@ const schemaJson = {
   "@graph": [
     {
       "@type": "Recipe",
-      "@id": "https://ollieskimchi.co.uk/recipes/traditional-kimchi-recipe/#recipe",
+      "@id": "https://kimchi.quest/recipes/traditional-kimchi-recipe/#recipe",
       "name": "Traditional Korean Kimchi",
       "author": {
         "@type": "Organization",
-        "name": "Ollie's Kimchi"
+        "name": "Kimchi Quest"
       },
       "description": "Authentic Korean kimchi recipe adapted for UK kitchens. Learn to make traditional fermented napa cabbage kimchi with step-by-step instructions.",
-      "image": "https://ollieskimchi.co.uk/images/traditional-kimchi-recipe.jpg",
+      "image": "https://kimchi.quest/images/traditional-kimchi-recipe.jpg",
       "recipeYield": "2 kilograms",
       "prepTime": "PT2H",
       "cookTime": "PT0M",
@@ -428,7 +428,7 @@ const schemaJson = {
     },
     {
       "@type": "FAQPage",
-      "@id": "https://ollieskimchi.co.uk/recipes/traditional-kimchi-recipe/#faq",
+      "@id": "https://kimchi.quest/recipes/traditional-kimchi-recipe/#faq",
       "mainEntity": [
         {
           "@type": "Question",
@@ -463,19 +463,19 @@ const schemaJson = {
           "@type": "ListItem",
           "position": 1,
           "name": "Home",
-          "item": "https://ollieskimchi.co.uk"
+          "item": "https://kimchi.quest"
         },
         {
           "@type": "ListItem",
           "position": 2,
           "name": "Recipes",
-          "item": "https://ollieskimchi.co.uk/recipes/"
+          "item": "https://kimchi.quest/recipes/"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Traditional Kimchi Recipe",
-          "item": "https://ollieskimchi.co.uk/recipes/traditional-kimchi-recipe/"
+          "item": "https://kimchi.quest/recipes/traditional-kimchi-recipe/"
         }
       ]
     }

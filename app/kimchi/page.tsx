@@ -18,7 +18,7 @@ export async function generateMetadata(): Promise<Metadata> {
       title: article.meta_title,
       description: article.meta_description,
       type: 'article',
-      url: `https://ollieskimchi.co.uk/${article.slug}`,
+      url: `https://kimchi.quest/${article.slug}`,
     },
   }
 }

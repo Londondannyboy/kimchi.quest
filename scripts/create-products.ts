@@ -1,5 +1,5 @@
 /**
- * Script to create Ollie's Kimchi products in Shopify
+ * Script to create Kimchi Quest products in Shopify
  * Run with: npx tsx scripts/create-products.ts
  */
 
@@ -41,7 +41,7 @@ const products: ProductInput[] = [
 <p>Keep refrigerated. Best consumed within 4 weeks of opening.</p>
 <p><strong>Size:</strong> 400g</p>`,
     productType: 'Kimchi',
-    vendor: "Ollie's Kimchi",
+    vendor: "Kimchi Quest",
     tags: ['kimchi', 'fermented', 'probiotic', 'classic', 'napa cabbage'],
     variants: [{ price: '8.50', sku: 'OK-CLASSIC-400' }]
   },
@@ -55,7 +55,7 @@ const products: ProductInput[] = [
 <h3>Storage</h3>
 <p>Keep refrigerated. Best consumed within 4 weeks of opening.</p>`,
     productType: 'Kimchi Bundle',
-    vendor: "Ollie's Kimchi",
+    vendor: "Kimchi Quest",
     tags: ['kimchi', 'fermented', 'probiotic', 'classic', 'bundle', '2-pack', 'value'],
     variants: [{ price: '16.15', sku: 'OK-CLASSIC-2PK' }]
   },
@@ -69,7 +69,7 @@ const products: ProductInput[] = [
 <h3>Storage</h3>
 <p>Keep refrigerated. Best consumed within 4 weeks of opening.</p>`,
     productType: 'Kimchi Bundle',
-    vendor: "Ollie's Kimchi",
+    vendor: "Kimchi Quest",
     tags: ['kimchi', 'fermented', 'probiotic', 'classic', 'bundle', '3-pack', 'value'],
     variants: [{ price: '22.95', sku: 'OK-CLASSIC-3PK' }]
   },
@@ -83,7 +83,7 @@ const products: ProductInput[] = [
 <h3>Storage</h3>
 <p>Keep refrigerated. Best consumed within 4 weeks of opening.</p>`,
     productType: 'Kimchi Bundle',
-    vendor: "Ollie's Kimchi",
+    vendor: "Kimchi Quest",
     tags: ['kimchi', 'fermented', 'probiotic', 'classic', 'bundle', '6-pack', 'value', 'best-value'],
     variants: [{ price: '43.35', sku: 'OK-CLASSIC-6PK' }]
   },
@@ -97,7 +97,7 @@ const products: ProductInput[] = [
 <p>Keep refrigerated. Best consumed within 4 weeks of opening.</p>
 <p><strong>Size:</strong> 400g</p>`,
     productType: 'Kimchi',
-    vendor: "Ollie's Kimchi",
+    vendor: "Kimchi Quest",
     tags: ['kimchi', 'fermented', 'probiotic', 'spicy', 'hot'],
     variants: [{ price: '9.00', sku: 'OK-SPICY-400' }]
   },
@@ -111,7 +111,7 @@ const products: ProductInput[] = [
 <p>Keep refrigerated. Best consumed within 4 weeks of opening.</p>
 <p><strong>Size:</strong> 400g</p>`,
     productType: 'Kimchi',
-    vendor: "Ollie's Kimchi",
+    vendor: "Kimchi Quest",
     tags: ['kimchi', 'fermented', 'probiotic', 'mild', 'beginner-friendly'],
     variants: [{ price: '8.50', sku: 'OK-MILD-400' }]
   },
@@ -125,7 +125,7 @@ const products: ProductInput[] = [
 <p>Keep refrigerated. Best consumed within 4 weeks of opening.</p>
 <p><strong>Size:</strong> 400g</p>`,
     productType: 'Kimchi',
-    vendor: "Ollie's Kimchi",
+    vendor: "Kimchi Quest",
     tags: ['kimchi', 'fermented', 'probiotic', 'vegan', 'plant-based'],
     variants: [{ price: '9.00', sku: 'OK-VEGAN-400' }]
   }
@@ -243,7 +243,7 @@ async function createProduct(product: ProductInput) {
 
 async function main() {
   console.log('='.repeat(50))
-  console.log("Creating Ollie's Kimchi products in Shopify...")
+  console.log("Creating Kimchi Quest products in Shopify...")
   console.log(`Store: ${SHOPIFY_STORE_DOMAIN}`)
   console.log('='.repeat(50))
   console.log('')

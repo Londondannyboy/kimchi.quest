@@ -346,7 +346,7 @@ const article = {
 <li><strong>Amazon UK:</strong> Wide selection including imported Korean brands</li>
 <li><strong>Sous Chef:</strong> Premium Korean ingredients including artisan kimchi</li>
 <li><strong>Japan Centre:</strong> Japanese and Korean foods with UK delivery</li>
-<li><strong>Ollie's Kimchi:</strong> Authentic, handmade kimchi made in the UK - <a href="/shop/">shop now</a></li>
+<li><strong>Kimchi Quest:</strong> Authentic, handmade kimchi made in the UK - <a href="/shop/">shop now</a></li>
 </ul>
 
 <h3>Artisan UK Kimchi Makers</h3>
@@ -354,7 +354,7 @@ const article = {
 <p>Several small producers make excellent kimchi right here in the UK:</p>
 
 <ul>
-<li><strong>Ollie's Kimchi:</strong> Our own small-batch, traditionally fermented kimchi made with love</li>
+<li><strong>Kimchi Quest:</strong> Our own small-batch, traditionally fermented kimchi made with love</li>
 <li><strong>Eaten Alive:</strong> Scottish producer of living fermented foods</li>
 <li><strong>Loving Foods:</strong> Organic, raw kimchi made in the UK</li>
 </ul>
@@ -481,7 +481,7 @@ const article = {
 <p><strong>Ready to start your kimchi journey?</strong></p>
 
 <ul>
-<li><a href="/shop/">Buy authentic kimchi</a> from Ollie's Kimchi</li>
+<li><a href="/shop/">Buy authentic kimchi</a> from Kimchi Quest</li>
 <li>Try our <a href="/recipes/traditional-kimchi-recipe/">traditional kimchi recipe</a></li>
 <li>Learn about the <a href="/health/kimchi-benefits/">health benefits of kimchi</a></li>
 <li>Explore <a href="/culture/types-of-kimchi/">different types of kimchi</a></li>
@@ -497,33 +497,33 @@ const schemaJson = {
   "@graph": [
     {
       "@type": "Article",
-      "@id": "https://ollieskimchi.co.uk/kimchi/#article",
+      "@id": "https://kimchi.quest/kimchi/#article",
       "headline": article.title,
       "description": article.meta_description,
-      "image": "https://ollieskimchi.co.uk/images/kimchi-guide-hero.jpg",
+      "image": "https://kimchi.quest/images/kimchi-guide-hero.jpg",
       "author": {
         "@type": "Organization",
-        "name": "Ollie's Kimchi",
-        "url": "https://ollieskimchi.co.uk"
+        "name": "Kimchi Quest",
+        "url": "https://kimchi.quest"
       },
       "publisher": {
         "@type": "Organization",
-        "name": "Ollie's Kimchi",
+        "name": "Kimchi Quest",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://ollieskimchi.co.uk/logo.png"
+          "url": "https://kimchi.quest/logo.png"
         }
       },
       "datePublished": new Date().toISOString(),
       "dateModified": new Date().toISOString(),
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://ollieskimchi.co.uk/kimchi/"
+        "@id": "https://kimchi.quest/kimchi/"
       }
     },
     {
       "@type": "FAQPage",
-      "@id": "https://ollieskimchi.co.uk/kimchi/#faq",
+      "@id": "https://kimchi.quest/kimchi/#faq",
       "mainEntity": [
         {
           "@type": "Question",
@@ -577,19 +577,19 @@ const schemaJson = {
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://ollieskimchi.co.uk/kimchi/#breadcrumb",
+      "@id": "https://kimchi.quest/kimchi/#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
           "position": 1,
           "name": "Home",
-          "item": "https://ollieskimchi.co.uk"
+          "item": "https://kimchi.quest"
         },
         {
           "@type": "ListItem",
           "position": 2,
           "name": "Kimchi Guide",
-          "item": "https://ollieskimchi.co.uk/kimchi/"
+          "item": "https://kimchi.quest/kimchi/"
         }
       ]
     }

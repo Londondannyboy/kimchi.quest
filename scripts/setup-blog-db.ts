@@ -25,7 +25,7 @@ async function setupSchema() {
       excerpt TEXT NOT NULL,
       content TEXT NOT NULL,
       featured_image VARCHAR(500),
-      author VARCHAR(255) DEFAULT 'Ollie''s Kimchi',
+      author VARCHAR(255) DEFAULT 'Kimchi Quest',
       category VARCHAR(100) NOT NULL,
       tags TEXT[] DEFAULT '{}',
       published BOOLEAN DEFAULT false,
@@ -73,7 +73,7 @@ async function seedArticles() {
 <p>The mixture is then packed into jars and left to ferment, developing its signature tangy, spicy, umami-rich flavour.</p>
 
 <h2>Why We Love Making Kimchi</h2>
-<p>At Ollie's Kimchi, we're passionate about honouring this ancient tradition while making it accessible to everyone. Each jar is handcrafted in small batches, using the freshest ingredients and time-tested techniques. It's not just food – it's alive!</p>
+<p>At Kimchi Quest, we're passionate about honouring this ancient tradition while making it accessible to everyone. Each jar is handcrafted in small batches, using the freshest ingredients and time-tested techniques. It's not just food – it's alive!</p>
       `,
       featured_image: '/Assets/Kimchi_B004_23-04-25.jpg',
       category: 'Education',

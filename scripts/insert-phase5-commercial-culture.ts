@@ -52,7 +52,7 @@ const articles = [
 <h2 id="online">Order Online</h2>
 <p>Can't find kimchi locally? Order online:</p>
 <ul>
-<li><a href="/shop/">Ollie's Kimchi</a> - Fresh UK-made, delivered nationwide</li>
+<li><a href="/shop/">Kimchi Quest</a> - Fresh UK-made, delivered nationwide</li>
 <li>Amazon UK - Wide selection</li>
 <li>Sous Chef - Premium options</li>
 <li>Japan Centre - Korean foods with UK delivery</li>
@@ -196,7 +196,7 @@ const articles = [
 
 <h2 id="options">UK Kimchi Subscription Options</h2>
 
-<h3>Ollie's Kimchi</h3>
+<h3>Kimchi Quest</h3>
 <p><a href="/shop/">Shop our range</a> - we offer regular delivery options for our fresh, unpasteurised kimchi made in the UK.</p>
 
 <h3>Fermented Food Boxes</h3>

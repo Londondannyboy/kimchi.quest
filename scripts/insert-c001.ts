@@ -131,7 +131,7 @@ const article = {
 
 <p>Can't get to a Korean supermarket? These online options deliver quality kimchi to your door:</p>
 
-<h3>Ollie's Kimchi (Our Pick)</h3>
+<h3>Kimchi Quest (Our Pick)</h3>
 
 <p><strong>Website:</strong> <a href="/shop/">Shop now</a></p>
 <p><strong>What we offer:</strong> Small-batch, traditionally fermented kimchi made in the UK. Unpasteurised with live cultures, using authentic Korean methods and quality ingredients.</p>
@@ -168,7 +168,7 @@ const article = {
 
 <p>For the very best kimchi, seek out small-batch artisan producers. These makers typically use traditional methods, quality ingredients, and don't pasteurise their products:</p>
 
-<h3>Ollie's Kimchi</h3>
+<h3>Kimchi Quest</h3>
 <p>Our own small-batch kimchi, handmade using authentic Korean methods. Fresh, unpasteurised, and bursting with probiotics. <a href="/shop/">View our range</a>.</p>
 
 <h3>Eaten Alive</h3>
@@ -236,7 +236,7 @@ const article = {
 <tr><td>Waitrose</td><td>£1.30-1.80</td><td>Good</td><td>Sometimes</td></tr>
 <tr><td>Korean supermarket</td><td>£1.50-2.50</td><td>Excellent</td><td>Often</td></tr>
 <tr><td>Artisan (UK made)</td><td>£2.50-4.00</td><td>Premium</td><td>Yes</td></tr>
-<tr><td>Ollie's Kimchi</td><td>£2.80-3.50</td><td>Premium</td><td>Yes</td></tr>
+<tr><td>Kimchi Quest</td><td>£2.80-3.50</td><td>Premium</td><td>Yes</td></tr>
 </tbody>
 </table>
 
@@ -259,7 +259,7 @@ const article = {
 <p>For the best kimchi experience in the UK, we recommend:</p>
 
 <ol>
-<li><strong>Best overall:</strong> <a href="/shop/">Ollie's Kimchi</a> - fresh, unpasteurised, UK-made</li>
+<li><strong>Best overall:</strong> <a href="/shop/">Kimchi Quest</a> - fresh, unpasteurised, UK-made</li>
 <li><strong>Best for convenience:</strong> Waitrose or H Mart</li>
 <li><strong>Best budget option:</strong> Tesco Lucky Foods</li>
 <li><strong>Best for variety:</strong> H Mart New Malden</li>
@@ -276,13 +276,13 @@ const schemaJson = {
       "@type": "Article",
       "headline": article.title,
       "description": article.meta_description,
-      "author": { "@type": "Organization", "name": "Ollie's Kimchi" }
+      "author": { "@type": "Organization", "name": "Kimchi Quest" }
     },
     {
       "@type": "ItemList",
       "name": "Best Kimchi UK",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Ollie's Kimchi", "description": "Fresh, unpasteurised, UK-made artisan kimchi" },
+        { "@type": "ListItem", "position": 1, "name": "Kimchi Quest", "description": "Fresh, unpasteurised, UK-made artisan kimchi" },
         { "@type": "ListItem", "position": 2, "name": "H Mart Fresh Kimchi", "description": "Korean supermarket fresh-made kimchi" },
         { "@type": "ListItem", "position": 3, "name": "Waitrose Kimchi", "description": "Best supermarket option for quality" }
       ]

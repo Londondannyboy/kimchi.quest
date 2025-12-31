@@ -196,7 +196,7 @@ const article = {
 <li><strong>Supermarkets:</strong> Tesco, Sainsbury's, Waitrose, M&S - usually in the Asian foods aisle</li>
 <li><strong>Korean supermarkets:</strong> H Mart, Oseyo, SeeWoo - best selection and quality</li>
 <li><strong>Online:</strong> Amazon, specialty food sites, artisan producers</li>
-<li><strong>Our shop:</strong> <a href="/shop/">Ollie's Kimchi</a> - fresh, unpasteurised, UK-made</li>
+<li><strong>Our shop:</strong> <a href="/shop/">Kimchi Quest</a> - fresh, unpasteurised, UK-made</li>
 </ul>
 
 <p>For detailed recommendations, see our <a href="/buy/best-kimchi-uk/">complete UK kimchi buying guide</a>.</p>
@@ -272,7 +272,7 @@ const schemaJson = {
       "@type": "Article",
       "headline": article.title,
       "description": article.meta_description,
-      "author": { "@type": "Organization", "name": "Ollie's Kimchi" }
+      "author": { "@type": "Organization", "name": "Kimchi Quest" }
     },
     {
       "@type": "FAQPage",

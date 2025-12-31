@@ -274,8 +274,8 @@ const schemaJson = {
       "@type": "Article",
       "headline": article.title,
       "description": article.meta_description,
-      "author": { "@type": "Organization", "name": "Ollie's Kimchi" },
-      "publisher": { "@type": "Organization", "name": "Ollie's Kimchi" },
+      "author": { "@type": "Organization", "name": "Kimchi Quest" },
+      "publisher": { "@type": "Organization", "name": "Kimchi Quest" },
       "datePublished": new Date().toISOString()
     },
     {
